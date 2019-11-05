@@ -13,7 +13,7 @@ import {
     DASHBOARD_DATA
 } from "../config/Config";
 
-const INITIAL_STATE = { loading: false, email: 'hruday@gmail.com', password: 'hruday123', dashData: {} };
+const INITIAL_STATE = { loading: false, email: '', password: '', dashData: {} };
 
 export default (state = INITIAL_STATE, action) => {
 
